@@ -27,7 +27,7 @@ export const SupportedEvents = {
     // Copy number alterations
     NOTDETECT: {
         colorHTML: '#ff0000',
-        displayName: 'Not Detected'
+        displayName: 'Amplification'
     }
 };
 

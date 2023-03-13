@@ -3,7 +3,7 @@ import _ from 'lodash';
 import PrecomputedComparator from './PrecomputedComparator';
 
 
-const MutationEventTypes = ['ECDNA', 'BFB', 'CNC', 'LINEAR', 'NOTDETECT'];
+const MutationEventTypes = ['ECDNA', 'TRUNC', 'MISSENSE'];
 
 export const SupportedEvents = {
     // Mutations
@@ -13,21 +13,42 @@ export const SupportedEvents = {
     },
     BFB: {
         colorHTML: '#993404',
-        displayName: 'BFB'
+        displayName: 'Inframe mutation'
     },
     CNC: {
         colorHTML: '#000000',
-        displayName: 'CNC'
+        displayName: 'Truncation mutation'
     },
     // Fusion
-    LINEAR: {
+    L: {
         colorHTML: '#8b00c9',
-        displayName: 'Linear'
+        displayName: 'Fusion'
     },
     // Copy number alterations
-    NOTDETECT: {
+    AMP: {
         colorHTML: '#ff0000',
-        displayName: 'Not Detected'
+        displayName: 'Amplification'
+    },
+    GAIN: {
+        colorHTML: '#ffb6c1',
+        displayName: 'Gain'
+    },
+    HETLOSS: {
+        colorHTML: '#8fd8d8',
+        displayName: 'Shallow deletion'
+    },
+    HOMDEL: {
+        colorHTML: '#0000ff',
+        displayName: 'Deep deletion'
+    },
+    // mRNA expressions
+    UP: {
+        colorHTML: '#ff9999',
+        displayName: 'mRNA Upregulation'
+    },
+    DOWN: {
+        colorHTML: '#6699cc',
+        displayName: 'mRNA Downregulation'
     }
 };
 

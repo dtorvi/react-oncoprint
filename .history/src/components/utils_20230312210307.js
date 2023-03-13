@@ -17,17 +17,17 @@ export const SupportedEvents = {
     },
     CNC: {
         colorHTML: '#000000',
-        displayName: 'CNC'
+        displayName: 'Truncation mutation'
     },
     // Fusion
     LINEAR: {
         colorHTML: '#8b00c9',
-        displayName: 'Linear'
+        displayName: 'Fusion'
     },
     // Copy number alterations
     NOTDETECT: {
         colorHTML: '#ff0000',
-        displayName: 'Not Detected'
+        displayName: 'Amplification'
     }
 };
 

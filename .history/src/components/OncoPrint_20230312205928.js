@@ -359,7 +359,7 @@ OncoPrint.propTypes = {
 
 OncoPrint.defaultProps = {
     // Data
-    padding: 0.0,
+    padding: 0.05,
     colorscale: null,
     backgroundcolor: 'rgb(190, 190, 190)',
     // Layout
